@@ -1,5 +1,53 @@
+@font-face {
+    font-family: afta;
+    src: url(fonts/afta-serif/AftaSerifThin-Regular.otf);
+}
+
+
 body {
-	color: #000;
+	color: #fff;
+}
+
+.tab-bar {
+	background: #fff;
+	border-bottom: #fff;
+}
+
+.tab-bar h1 {
+	color: #65515E;
+	font-family: 'Raleway', Aria, sans-serif;
+	font-weight: 600;
+	}
+
+/*.right-off-canvas-menu, .left-off-canvas-menu {
+	background: #8B8589;
+	background-color: #8B858C;
+}*/
+
+/*a.left-off-canvas-toggle.menu-icon, a.right-off-canvas-toggle.menu-icon {
+	background-color: #fff;
+}*/
+
+ul.off-canvas-list li label {
+	background-color: #65515E;
+	color: #fff;
+	font-family: 'Raleway', Aria, sans-serif;
+	font-weight: 400;
+	font-size: .75rem;
+	}
+ul.off-canvas-list li a {
+	background-color: #D8D8D8;
+	color: #65515E;
+	font-family: 'Crimson Text', serif;
+	font-weight: 200;
+	font-size: .85rem;
+}
+left-small  {
+    border-right: solid 1px #333;
+}
+
+right-small {
+    border-left: solid 1px #333;
 }
 
 /* Porfolio Page - Slick Carousel
@@ -17,6 +65,3 @@ outline: 0;
 
 }
 
-/*.slider {
-padding-top: 1.5;
-}*/
