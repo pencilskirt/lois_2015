@@ -1,3 +1,22 @@
 body {
 	color: #000;
 }
+
+/* Porfolio Page - Slick Carousel
+===================================*/
+.slick-next {
+right: -55px;
+}
+
+.slick-prev {
+left: -58px;
+}
+
+.imgWrap{
+outline: 0;
+
+}
+
+/*.slider {
+padding-top: 1.5;
+}*/
